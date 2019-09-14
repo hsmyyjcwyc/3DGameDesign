@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/qinch/Desktop/3DGame-master/tictactoe/Assets/tictactoegame.unity
+  isLoaded: 1
+  isActive: 1
