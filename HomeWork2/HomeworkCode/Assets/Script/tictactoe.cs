@@ -17,7 +17,7 @@ public class tictactoe : MonoBehaviour
     public int[,] map = new int[3, 3];//默认未点击
     public Texture2D player1;
     public Texture2D player2;//提供player1，2的素材接口，也可以使用GUIContent
-
+    int counter = 0;
     int testWin()//1代表player1，-1代表player2，0代表和棋
     {
         //胜利有三种，横纵斜；
@@ -48,9 +48,13 @@ public class tictactoe : MonoBehaviour
         }
         return 0;
     }
-
     void OnGUI()
     {
+GUIStyle fontStyle = new GUIStyle();  
+fontStyle.normal.background = null;   
+fontStyle.normal.textColor= new Color(1, 0, 0);    
+fontStyle.fontSize = 20; 
+
     //显示玩家和其对应的头像；
     GUI.Button (new Rect (100,10, 75, 75), player1);
     GUI.Button (new Rect (100,85, 75, 50), "player1");
@@ -65,20 +69,27 @@ public class tictactoe : MonoBehaviour
         {
             map[i,j] = 0;
         }
+        counter = 0;
     }
     //检查是否结束
     int test;
     test = testWin();
-    if(test == 1){GUI.Button(new Rect(250,50,100,50),"Player1 win!");}
-    if(test == -1){GUI.Button(new Rect(250,50,100,50),"Player2 win!");}
+    if(test == 1){GUI.Button(new Rect(275,50,100,50),"Player1 win!");
+        }
+    if(test == -1){GUI.Button(new Rect(275,50,100,50),"Player2 win!");
+       }
+
+    if(counter==9&&test==0){GUI.Button(new Rect(275,50,100,50),"No winner!");
+    }
     //构建棋盘；
     for(int i = 0;i < 3;i++)
         for(int j = 0;j < 3;j++)
         {
-            if(GUI.Button(new Rect(250+i*50,200+j*50,50,50),""))
+            if(GUI.Button(new Rect(250+i*50,200+j*50,50,50),"")&&map[i,j] == 0&&test == 0)
             {
                 map[i,j] = player;
                 player *= -1;
+                counter = counter + 1;
             }//这里可以有很多种实现方法，现在所示的这种属于比较简单的；
             else if(map[i,j] == 1)
             {
