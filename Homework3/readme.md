@@ -63,9 +63,13 @@ void FixedUpdate()
 
 **3.写一个程序，实现一个完整的太阳系， 其他星球围绕太阳的转速必须不一样，且不在一个法平面上。**
 
+视频地址:https://www.bilibili.com/video/BV17K411N75U/
 
+![](https://cdn.nlark.com/yuque/0/2020/png/1336355/1601909476680-ef358a5c-a4be-4d3b-b5d4-7503d37dd75e.png?x-oss-process=image%2Fwatermark%2Ctype_d3F5LW1pY3JvaGVp%2Csize_14%2Ctext_eW9sbyDlsI_kuIM%3D%2Ccolor_FFFFFF%2Cshadow_50%2Ct_80%2Cg_se%2Cx_10%2Cy_10%2Fresize%2Cw_1270)
 
 ### 二、编程实践
+
+视频地址:https://www.bilibili.com/video/BV1kA411J7bj/
 
 阅读以下脚本：
 
