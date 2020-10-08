@@ -110,5 +110,5 @@ play the game ( http://www.flash-game.net/game/2535/priests-and-devils.html )
 
 最后我们实现的游戏如下图：
 
-![Snipaste_2020-10-05_22-45-01](Priests and Devils\Snipaste_2020-10-05_22-45-01.png)
+![Snipaste_2020-10-05_22-45-01](https://github.com/hsmyyjcwyc/3DGameDesign/blob/master/Homework3/Priests%20and%20Devils/Snipaste_2020-10-05_22-45-01.png?raw=true&x-oss-process=image%2Fwatermark%2Ctype_d3F5LW1pY3JvaGVp%2Csize_10%2Ctext_eW9sbyDlsI_kuIM%3D%2Ccolor_FFFFFF%2Cshadow_50%2Ct_80%2Cg_se%2Cx_10%2Cy_10)
 
