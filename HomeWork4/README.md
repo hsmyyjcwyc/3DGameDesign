@@ -29,7 +29,7 @@
 - 3D Object：场景中的角色
 
 ## 2、编程实践
-#### 视频:https://www.bilibili.com/video/BV1kA411J7bj/
+#### 视频:https://www.bilibili.com/video/BV1Af4y1z7oj/
 
 **牧师与魔鬼 动作分离版（并实现裁判类：游戏达到结束条件时，由裁判类通知场景控制器）**  
 
