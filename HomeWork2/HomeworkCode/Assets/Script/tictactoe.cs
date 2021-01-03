@@ -85,7 +85,7 @@ fontStyle.fontSize = 20;
     for(int i = 0;i < 3;i++)
         for(int j = 0;j < 3;j++)
         {
-            if(GUI.Button(new Rect(250+i*50,200+j*50,50,50),"")&&map[i,j] == 0&&test == 0)
+            if(GUI.Button(new Rect(250+i*50,200+j*50,50,50),"")&&map[i,j]==0&&test == 0)
             {
                 map[i,j] = player;
                 player *= -1;
