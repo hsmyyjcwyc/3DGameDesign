@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health_Bar", "Assembly-CSharp-firstpass.csproj", "{46131142-D224-EF0F-206C-F3FC4AD18CBB}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{46131142-D224-EF0F-206C-F3FC4AD18CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health_Bar", "Assembly-CSharp.csproj", "{892E5AE3-D693-1FB5-B054-3145F4CD6FF9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{892E5AE3-D693-1FB5-B054-3145F4CD6FF9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Health_Bar", "Assembly-CSharp-Editor-firstpass.csproj", "{267E3AB5-A227-50E9-F495-0283D02091CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor-firstpass", "Assembly-CSharp-Editor-firstpass.csproj", "{267E3AB5-A227-50E9-F495-0283D02091CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

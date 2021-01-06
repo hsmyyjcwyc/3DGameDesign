@@ -3,7 +3,7 @@
 - 分别使用 IMGUI 和 UGUI 实现
 - 使用 UGUI，血条是游戏对象的一个子元素，任何时候需要面对主摄像机
 - 分析两种实现的优缺点
-- 给出预制的使用方法  
+- 给出预制的使用方法
 
 ## IMGUI实现  
 脚本代码：
@@ -51,7 +51,7 @@ public class IMGUI_HealthBar : MonoBehaviour {
     ![](images/1.png)  
   
 - 在层次视图，Context 菜单 -> 3D Object -> Plane 添加 Plane 对象
-    
+  
     ![](images/2.png)  
 
 - 资源视图展开 Standard Assets :: Charactors :: ThirdPersonCharater :: Prefab  
@@ -65,7 +65,7 @@ public class IMGUI_HealthBar : MonoBehaviour {
 
         ![](images/5.png)  
    - Ethan 的 Transform 的 Position = (0,0,0)  
-    
+   
         ![](images/6.png)  
    - Main Camera 的 Transform 的 Position = (0,1,-10)  
 
@@ -123,7 +123,7 @@ public class IMGUI_HealthBar : MonoBehaviour {
             this.transform.LookAt (Camera.main.transform.position);
         }
     }
-    ```  
+    ```
 - 最终运行效果如下：可以看到血条已经不会随人物旋转了  
 
     ![](images/19.gif)  
